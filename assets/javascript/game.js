@@ -14,3 +14,6 @@ for (var i =0; i < characters.length; i++) {
     characterBtn.addClass(characterIds[i]);
     $("#characters").append(characterBtn);
 }
+
+//http://jsfiddle.net/LJHQW/1/
+//need to figure out how to move the button to a different container/class when clicked on
