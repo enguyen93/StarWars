@@ -6,7 +6,7 @@ var character4 = "assets/images/pikachu.jpng";
 var characters = [character1, character2, character3, character4];
 var characterIds = ["character1", "character2", "character3", "character4"]
 
-for (var i =0; i < characters.length; i++) {
+for (var i = 0; i < characters.length; i++) {
     var characterBtn = $("<button>");
     characterBtn.attr("src", characters[i]);
     characterBtn.attr("id", characterIds[i]);
@@ -17,3 +17,17 @@ for (var i =0; i < characters.length; i++) {
 
 //http://jsfiddle.net/LJHQW/1/
 //need to figure out how to move the button to a different container/class when clicked on
+
+$("#characters").on("click", function () {
+    
+})
+//example code that moves luke to enemies container
+// $("#character1").on("click", function() {
+//     $("#enemies").append($("#character1"));
+// });
+
+//need to have the player choose 1 character
+//then the rest of the characters have to move themselves
+//to the enemy box
+//then the player should be able to choose 1 from the enemy box
+//and move that 1 character from the enemy box to the dfndr box
