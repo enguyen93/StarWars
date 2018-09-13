@@ -62,7 +62,8 @@ function attack () {
 
 
 
-
+//also maybe consider making objects for each character dynamically
+//https://stackoverflow.com/questions/8084003/how-to-create-dynamically-named-javascript-object-properties
 
 
 
