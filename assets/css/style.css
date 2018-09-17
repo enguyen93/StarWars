@@ -1,12 +1,12 @@
-.character1 {
+#luke {
     background-image: url("../images/luke.jpg");
 }
-.character2 {
+#darthmaul {
     background-image: url("../images/darthmaul.jpg");
 }
-.character3 {
+#obiwan {
     background-image: url("../images/obiwan.jpg");
 }
-.character4 {
+#pikachu {
     background-image: url("../images/pikachu.png");
 }
